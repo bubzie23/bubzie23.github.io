@@ -1,5 +1,5 @@
-.container-footer{
-
+body {
+    color: white;
 }
 
 header{
@@ -10,9 +10,67 @@ header{
 .logo {
     margin-left: 14px;
     margin-top: 0px;
+    padding-top: 0px;
 }
 
 .black {
-    background: rgb(0, 0, 0);
-    filter: brightness(5%);
+    background: rgba(0, 0, 5, 0.123);
+}
+
+.ubuntu-font {
+    font-family: "Ubuntu", sans-serif;         
+}
+
+.header__left {
+    padding-top: 250px;
+}
+
+.blocks-group__block--blue{
+    background-color: rgba(3, 24, 51, 0.562);
+    border: 3px solid #00000083;
+    border-radius: 3%;
+    color: #fff;
+    text-align: center;
+}
+
+.section--blue{
+    background: rgba(0, 135, 202, 0.779);
+}
+
+.blocks-group__block {
+    padding: 10px;
+}
+
+.header__right {
+    padding-top: 500px;   
+}
+
+section, footer {
+    padding: 50px 0;
+}
+
+
+.link {
+    text-decoration: none;
+    color: #fff;
+
+}
+
+ul {
+    list-style-type: none;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+h1{
+   font-size: 100px;
+}
+
+a {
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+
+ a:hover {
+    transform: scale(1.2);
 }

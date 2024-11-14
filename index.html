@@ -16,32 +16,124 @@
             integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
             crossorigin="anonymous"
         />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="style.css">
     </head>
 
     <body>
-        <header class="black">
-            <div class="container-fluid">
-                <div class="container-footer">
-                    <div class="row g-0 pt-3 pb-2 mb-3 border-bottom">
+        <header>
+            <div class="container-fluid black">
+                <div class="container--footer">
+                    <div class="row g-0 mb-3 border-bottom">
                         <div class="col-3">
                             <img src="logo.png" width="160" height="60" class="logo">
                         </div>
-                        <div class="col-5 nav justify-content-center">
-                            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Главная</a></li>
-                            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Забронировать билеты</a></li>
-                            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">О музее</a></li>
-                            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">О нас</a></li>
-                            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Связаться с нами</a></li></div>
-                        <div class="col-3">
+                        <div class="col-5 nav justify-content-center pt-3 pb-4">
+                            <li class="nav-item"><a href="#" class="px-2 link">Главная</a></li>
+                            <li class="nav-item"><a href="#" class="px-2 link">Забронировать билеты</a></li>
+                            <li class="nav-item"><a href="#" class="px-2 link">О музее</a></li>
+                            <li class="nav-item"><a href="#" class="px-2 link">О нас</a></li>
+                            <li class="nav-item"><a href="#" class="px-2 link">Связаться с нами</a></li></div>
+                        <div class="col-3 text-end pt-3">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                                <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+                              </svg>   
                         </div>
                     </div>
                 </div>
             </div>
+            <section class="container">
+                <div class="row ubuntu-font">
+                    <div class="col-6 header__left">
+                        <h1>Экспонаты</h1>
+                        <h3>Музей имени А.П. Чехова собирает экспонаты </br>по всей Росии</h3>
+                        <h5><a class="link" href="#">Подробнее<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+                          </svg></a></h5>
+                    </div>
+                    <div class="col-6 header__right header__block-group row align-items-end">
+                        <div class="blocks-group__block col-6">
+                            <div class="blocks-group__block--blue h-100">
+                                <br />Культовые произведения<br /><a class="link" href="#">Подробнее<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+                                  </svg></a><br /><br />
+                            </div>
+                          </div>
+                          <div class="blocks-group__block col-6">
+                            <div class="blocks-group__block--blue h-100">
+                                <br />Новые экспонаты<br /><a class="link" href="#">Подробнее<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+                                  </svg></a><br /><br />
+                            </div>
+                          </div>
+                          <div class="blocks-group__block col-6">
+                            <div class="blocks-group__block--blue h-100">
+                                <br />Культурное достояние 2024 года<br /><a class="link" href="#">Подробнее<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+                                  </svg></a><br /><br />
+                            </div>
+                          </div>
+                          <div class="blocks-group__block col-6">
+                            <div class="blocks-group__block--blue h-100">
+                                <br />Помощь проекту<br /><a class="link" href="#">Подробнее<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+                                  </svg></a><br /><br />
+                            </div>
+                          </div>
+                    </div>
+                </div>
+            </section>
         </header>
 
         <main>
-            
+            <section class="container-fluid section--blue">
+                <div class="container">
+                  <div class="col-12">
+                    <div class="row ubuntu-font">
+                      <div class="col-3">
+                        <h4>Исторические </br>экспонаты</h4>
+                        <ul>
+                          <li><a class="link" href="#">Великая отечественная война</a></li>
+                          <li><a class="link" href="#">Японская война</a></li>
+                          <li><a class="link" href="#">Корейская война</a></li>
+                          <li><a class="link" href="#">Война против ящеров</a></li>
+                          <li><a class="link" href="#">Правление древних Русов</a></li>
+                        </ul>
+                      </div>
+                      <div class="col-3"><h4>Награды</br>музея</h4>
+                        <ul>
+                          <li><a class="link" href="#">Молодежное достояние 2014</a></li>
+                          <li><a class="link" href="#">Самый правдивый источник 2018</a></li>
+                          <li><a class="link" href="#">Тяжелее чем гранит</a></li>
+                          <li><a class="link" href="#">Золотой струя знаний</a></li>
+                          <li><a class="link" href="#">Статуэтка "Лучший мужчина Таганрога"</a></li>
+                        </ul></div>
+                      <div class="col-3">
+                        <h4>Пушкинская </br>карта</h4>
+                        <ul>
+                          <li><a class="link" href="#">Молодежный саммер-фест 2024</a></li>
+                          <li><a class="link" href="#">Экскурсия по террритории музея</a></li>
+                          <li><a class="link" href="#">Фестиваль "На хайпе"</a></li>
+                          <li><a class="link" href="#">Поездка в Хогвартс</a></li>
+                          <li><a class="link" href="#">Йога с элементами борьбы на свежем воздухе</a></li>
+                        </ul>
+                      </div>
+                      <div class="col-3">
+                        <h4>Игровые </br> мероприятия</h4>
+                        <ul>
+                          <li><a class="link" href="#">Интелекктуальный марафон 2024</a></li>
+                          <li><a class="link" href="#">Встреча знаний 2025</a></li>
+                          <li><a class="link" href="#">Квиз "Игра Интелектуалов"</a></li>
+                          <li><a class="link" href="#">Шахматы</a></li>
+                          <li><a class="link" href="#">И ещё какой-то бред для задротов</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </section>    
         </main>
 
         <footer>
