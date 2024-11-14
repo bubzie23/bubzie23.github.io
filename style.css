@@ -12,5 +12,7 @@ header{
     margin-top: 0px;
 }
 
-
-
+.black {
+    background: rgb(0, 0, 0);
+    filter: brightness(5%);
+}
