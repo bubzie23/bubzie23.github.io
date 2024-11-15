@@ -71,6 +71,40 @@ a {
     transition: transform 0.3s ease;
 }
 
- a:hover {
+.link:hover {
     transform: scale(1.2);
+}
+
+.section--gray{
+    background: rgb(44, 55, 86);
+}
+
+.link1 {
+    color: #fff;
+}
+
+.card {
+    border-radius: 0%;
+    background-color: #ffffff00;
+    color: #fff;
+}
+
+.card-text{
+    color: #fff;
+}
+
+.container--green {
+    background: #554c72;
+}
+
+footer {
+    background: #231d3a;
+}
+
+.link2:hover {
+    color: rgb(255, 0, 187);
+}
+
+.link2 {
+    color: #fff;
 }
